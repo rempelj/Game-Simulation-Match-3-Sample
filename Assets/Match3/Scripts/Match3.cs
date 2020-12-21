@@ -48,6 +48,7 @@ public class Match3 : MonoBehaviour {
     }
 
     public void SetLevelSO(LevelSO levelSO) {
+        Debug.Log("SetLevelSO: " + levelSO.name);
         this.levelSO = levelSO;
 
         gridWidth = levelSO.width;
